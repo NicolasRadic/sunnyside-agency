@@ -1,31 +1,107 @@
-.field {
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
   display: grid;
-  width: 375px;
+}
+
+.header {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   background-color: beige;
   margin: auto;
-}
-.field__case {
-  display: flex;
-  flex-wrap: wrap;
-  width: auto;
-  text-align: center;
-  background-color: #90ee90;
+  background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-header.jpg?token=GHSAT0AAAAAABRENVWQGIC473YEVG7KORXGYQWDXYA);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 568px;
   position: relative;
+}
+.header__title {
+  position: absolute;
+  width: 327px;
+  height: 98px;
+  left: 19px;
+  top: 144px;
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.2em;
   color: white;
 }
-.field__case__image {
-  width: 100%;
-}
-.field__case__title {
+.header__arrow {
   position: absolute;
+  left: 169px;
+  top: 312px;
 }
-.field__case__header {
-  font-family: "Fraunces", serif;
-  position: absolute;
-  top: 100px;
-  left: 50px;
+
+/*      &__case{
+        display: flex;
+        width: auto;
+        height: 568px;
+        text-align: center;
+        background-color: #90ee90;
+
+        flex-direction: column;
+
+        color: white;
+
+        background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-header.jpg?token=GHSAT0AAAAAABRENVWQGIC473YEVG7KORXGYQWDXYA);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+
+        &__top_bar{
+            display: inline-flex;
+            align-content: flex-start;
+
+
+        }
+
+        &__header{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Fraunces', serif;
+
+
+
+
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+.header{
+
+
+
+    &__nav{
+
+
+    }
+
+    &__logo{
+
+    }
+
 }
+
+*/
 
 /*# sourceMappingURL=style.css.map */
