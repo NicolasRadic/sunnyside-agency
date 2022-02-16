@@ -1,6 +1,31 @@
 .field {
+  display: grid;
   width: 375px;
   font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  background-color: beige;
+  margin: auto;
+}
+.field__case {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  text-align: center;
+  background-color: #90ee90;
+  position: relative;
+  color: white;
+}
+.field__case__image {
+  width: 100%;
+}
+.field__case__title {
+  position: absolute;
+}
+.field__case__header {
+  font-family: "Fraunces", serif;
+  position: absolute;
+  top: 100px;
+  left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
