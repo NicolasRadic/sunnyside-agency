@@ -21,7 +21,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 568px;
+    width: 100vw;
+    height: 143.46vw;
     position: relative;
 
 
@@ -58,6 +59,64 @@
 
 
     }
+
+
+
+}
+
+.intro{
+
+    &__img{
+        margin: auto;
+        background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-transform.jpg?token=GHSAT0AAAAAABRENVWQD7BFRQWN4GS75KVCYQWJILA);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 312px;
+        
+
+
+    }
+
+    &__contet{
+        height: 437px;
+    }
+
+    &__header{
+        color: rgb(35,46,62);
+        text-align: center;
+        font-family: 'Fraunces', serif;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        margin: 55px 10px 30px;
+        
+
+
+
+    }
+
+
+    &__txt{
+        color:  hsl(210, 4%, 67%);
+        text-align: center;
+        margin: 20px 10px;
+        font-family: 'Barlow', sans-serif;
+        font-size: large;
+        
+
+
+    }
+
+    &__more{
+        color: rgb(35,46,62);
+        text-align: center;
+        margin: 30px 0px 60px;
+        font-family: 'Fraunces', serif;
+        font-size: medium;
+
+    }
+
 
 
 
