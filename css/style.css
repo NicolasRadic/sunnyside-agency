@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 .body {
   display: grid;
 }
@@ -19,18 +23,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
-  height: 143.46vw;
+  width: clamp(20rem, 100vw, 70rem);
+  height: clamp(28.6rem, 143.46vw, 1001rem);
   position: relative;
 }
 .header__title {
   position: absolute;
-  width: 327px;
-  height: 98px;
-  left: 19px;
-  top: 144px;
+  width: 87.2vw;
+  height: 26.13vw;
+  left: 5.06vw;
+  top: 38.4vw;
   font-family: "Fraunces", serif;
-  font-size: 40px;
+  font-size: 4rem;
   line-height: 49px;
   text-align: center;
   letter-spacing: 0.2em;
@@ -38,8 +42,8 @@
 }
 .header__arrow {
   position: absolute;
-  left: 169px;
-  top: 312px;
+  left: 45.06vw;
+  top: 78.2vw;
 }
 
 .intro__img {
@@ -48,10 +52,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 312px;
+  width: clamp(20rem, 100vw, 70rem);
+  height: clamp(16.6rem, 100vw, 58.2rem);
 }
-.intro__contet {
-  height: 437px;
+.intro__content {
+  width: clamp(20rem, 100vw, 70rem);
+  height: clamp(23.3rem, 100vw, 81.5rem);
 }
 .intro__header {
   color: #232e3e;
