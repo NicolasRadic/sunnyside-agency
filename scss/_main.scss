@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+.body{
+    background-color: beige;
+    
+    
+}
+.contnair{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+
+}

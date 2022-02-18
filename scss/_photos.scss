@@ -1,0 +1,53 @@
+.photos{
+    
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-areas:
+    'milk oranges'
+    'cornet sugar';
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    &__milk{
+        background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-gallery-milkbottles.jpg);
+        padding: 9rem 9rem;
+        background-size: 18.8rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-area: milk;
+
+    }
+
+    &__orange{
+        background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-gallery-orange.jpg);
+        padding: 9rem 9rem;
+        background-size: 18.8rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-area: oranges;
+
+    }
+
+    &__cornet{
+        background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-gallery-cone.jpg);
+        padding: 9rem 9rem;
+        background-size: 18.8rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-area: cornet;
+
+
+    }
+
+    &__sugar{
+        background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-gallery-sugar-cubes.jpg);
+        padding: 9rem 9rem;
+        background-size: 18.8rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-area: sugar;
+
+    }
+
+}
