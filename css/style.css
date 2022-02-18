@@ -248,15 +248,29 @@ html {
 .footer {
   grid-column: 1/3;
   padding: 0;
-  background-color: #458c7e;
+  background-color: #90d4c5;
   text-align: center;
 }
 .footer__logo {
-  padding: 5rem 0 3rem;
   color: #25564b;
-  background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/logo.svg);
+  padding: 5rem 0 3rem;
   background-repeat: no-repeat;
   background-position: center;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__txt {
+  font-size: 1.8rem;
+  color: #25564b;
+  font-family: "Barlow", sans-serif;
+  padding-bottom: 5rem;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 8rem 8rem;
 }
 
 /*      &__case{
