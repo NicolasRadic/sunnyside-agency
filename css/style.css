@@ -27,7 +27,7 @@ html {
   font-size: 1.8rem;
   background-color: beige;
   margin: auto;
-  background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-header.jpg?token=GHSAT0AAAAAABRENVWQGIC473YEVG7KORXGYQWDXYA);
+  background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +66,7 @@ html {
 }
 .intro__img {
   margin: auto;
-  background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-transform.jpg?token=GHSAT0AAAAAABRENVWQD7BFRQWN4GS75KVCYQWJILA);
+  background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-transform.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -108,7 +108,7 @@ html {
   grid-column: 1/3;
 }
 .expla__img {
-  background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-stand-out.jpg?token=GHSAT0AAAAAABRENVWRDSX67ODIEOBHMY2KYQXPGNA);
+  background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-stand-out.jpg);
   margin: auto;
   width: clamp(20rem, 100vw, 70rem);
   height: clamp(16.5rem, 82.9vw, 57.7rem);
@@ -142,7 +142,7 @@ html {
   grid-column: 1/3;
 }
 .description__graph {
-  background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-graphic-design.jpg?token=GHSAT0AAAAAABRENVWQ63LBXKL2TFHOQWQAYQXRVEA);
+  background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-graphic-design.jpg);
   margin: 0 auto;
   background-size: cover;
   background-position: center;
@@ -150,7 +150,7 @@ html {
   color: #25564b;
 }
 .description__photo {
-  background: url(https://raw.githubusercontent.com/becodeorg/LIE-Hamilton-6/main/01-main-course/01-the-field/04-html-css/03-projects/resources/images/mobile/image-photography.jpg?token=GHSAT0AAAAAABRENVWQQN3AGX4LPXMOU7L2YQXSOCQ);
+  background: url(https://raw.githubusercontent.com/NicolasRadic/sunnyside-agency/main/images/mobile/image-photography.jpg);
   margin: 0 auto;
   background-size: cover;
   background-position: center;
